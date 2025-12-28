@@ -8,11 +8,26 @@ return {
       require("nvim-treesitter").setup({
         -- A list of parser names, or "all"
         ensure_installed = {
+          "bash",
           "c",
           "cpp",
-          "lua",
+          "html",
+          "java",
           "javascript",
+          "jsdoc",
+          "json",
+          "jsx",
+          "lua",
+          "luadoc",
+          "markdown",
+          "python",
           "rust",
+          "sql",
+          "toml",
+          "tsx",
+          "typescript",
+          "xml",
+          "yaml",
         },
 
         -- Install parsers synchronously (only applied to `ensure_installed`)
@@ -40,11 +55,26 @@ return {
       })
 
       require("nvim-treesitter").install({
+        "bash",
         "c",
         "cpp",
-        "lua",
+        "html",
+        "java",
         "javascript",
+        "jsdoc",
+        "json",
+        "jsx",
+        "lua",
+        "luadoc",
+        "markdown",
+        "python",
         "rust",
+        "sql",
+        "toml",
+        "tsx",
+        "typescript",
+        "xml",
+        "yaml",
       })
     end,
   },

@@ -4,3 +4,4 @@
 
 vim.opt.number = true -- keep absolute line numbers
 vim.opt.relativenumber = false -- disable relative line numbers
+vim.g.autoformat = false
